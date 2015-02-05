@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://dx.doi.org/10.1234567890">
+    <!-- Various metadata elements can go here... -->
+    <dc:title>A Breakthrough Paper</dc:title>
+    <ali:free_to_read rdf:parseType="Resource">
+      <!-- free to read from issued date -->
+      <ali:start_date rdf:datatype="xsd:date">2014-12-24</ali:start_date>
+    </ali:free_to_read>
+    <ali:license_ref rdf:parseType="Resource">
+      <!-- applying a license from 1 Nov 2014 onwards -->
+      <ali:start_date rdf:datatype="xsd:date">2014-11-01</ali:start_date>
+      <ali:uri rdf:resource="http://www.psychoceramics.org/license_v1.html"/>
+    </ali:license_ref>
+    <ali:license_ref rdf:parseType="Resource">
+      <!-- making the license more liberal one year later -->
+      <ali:start_date rdf:datatype="xsd:date">2015-11-01</ali:start_date>
+      <ali:uri rdf:resource="http://www.psychoceramics.org/open_license.html"/>
+    </ali:license_ref>
+  </rdf:Description>
+</rdf:RDF>

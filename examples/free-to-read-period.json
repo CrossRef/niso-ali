@@ -1,0 +1,7 @@
+{
+    "@context": "http://www.niso.org/schemas/ali/1.0/jsonld.json",
+    "free_to_read": {
+	"start_date": "2013-02-03",
+	"end_date": "2013-10-03"
+    }
+}
