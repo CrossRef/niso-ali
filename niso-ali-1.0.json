@@ -2,8 +2,6 @@
     "@context": {
 	"@vocab": "http://www.niso.org/schemas/ali/1.0/jsonld.json",
 	"xsd": "http://www.w3.org/2001/XMLSchema#",
-	"free_to_read": { "@type": "@id" },
-	"license_ref": { "@type": "@id" },
 	"uri": { "@type": "@id" },
 	"start_date": { "@type": "xsd:date" },
 	"end_date": { "@type": "xsd:date" }
