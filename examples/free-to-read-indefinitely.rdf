@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF
-    xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<rdf:RDF xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/" 
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <rdf:Description rdf:about="http://dx.doi.org/10.1234567890">
     <!-- Various metadata elements can go here... -->
     <dc:title>A Breakthrough Paper</dc:title>
