@@ -17,9 +17,9 @@ These are in the order that they appear in the RP document.
     * examples/free-to-read-indefinitely.rdf - "Example of <free_to_read> without 
       date restrictions"
 * Appendix A.4 - JSON Implementation
-    * *no example* - "Example JSON implementation that 
+    * examples/free-to-read-indefinitely.json - "Example JSON implementation that 
       specifies only that the resource is free-to-read"
-    * *no example* - "Example JSON implementation with start 
+    * examples/free-to-read-period.json - "Example JSON implementation with start 
       and end date for free_to_read"
     * examples/license-only.json - "Example JSON implementation that specifies 
       free-to-read, as well as giving a license URI"
