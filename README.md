@@ -1,5 +1,7 @@
 Files here correspond as follows to the Recommended Practice document
-NISO RP-22-2015, January 5, 2015.
+NISO RP-22-2015, January 5, 2015.  Note that these versions are more recent,
+and might include changes since that version of the RP document was
+published.
 
 These are in the order that they appear in the RP document.
 
@@ -15,9 +17,9 @@ These are in the order that they appear in the RP document.
     * examples/free-to-read-indefinitely.rdf - "Example of <free_to_read> without 
       date restrictions"
 * Appendix A.4 - JSON Implementation
-    * examples/free-to-read-indefinitely.json - "Example JSON implementation that 
+    * *no example* - "Example JSON implementation that 
       specifies only that the resource is free-to-read"
-    * examples/free-to-read-period.json - "Example JSON implementation with start 
+    * *no example* - "Example JSON implementation with start 
       and end date for free_to_read"
     * examples/license-only.json - "Example JSON implementation that specifies 
       free-to-read, as well as giving a license URI"

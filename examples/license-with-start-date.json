@@ -1,8 +1,10 @@
 {
-  "@context": "http://www.niso.org/schemas/ali/1.0/jsonld.json",
-  "free_to_read": true,
-  "license_ref": {
-    "start_date": "2014-04-04",
-    "uri": "http://creativecommons.org/licenses/by/3.0/"
-  }
+    "@context": "http://www.niso.org/schemas/ali/1.0/jsonld.json",
+    "free_to_read": {
+	"start_date": "2014-04-04"
+    },
+    "license_ref": {
+	"uri": "http://creativecommons.org/licenses/3.0/",
+	"start_date": "2014-04-04"
+    }
 }

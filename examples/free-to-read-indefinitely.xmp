@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
-         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-         xmlns:dc="http://purl.org/dc/elements/1.1/"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <rdf:Description rdf:about="http://dx.doi.org/10.1234567890">
-    <!-- Various metadata elements can go here... -->
-    <dc:title>A Breakthrough Paper</dc:title>
-    <ali:free_to_read>true</ali:free_to_read>
-    <ali:license_ref>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <ali:start_date>2014-01-01</ali:start_date>
-          <ali:uri>http://www.psychoceramics.org/
-            open_license.html</ali:uri>
-        </rdf:li>
-      </rdf:Bag>
-    </ali:license_ref>
-  </rdf:Description>
-</rdf:RDF>
+<rdf:RDF
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <rdf:Description rdf:about="http://dx.doi.org/10.1234567890">
+      <!-- Various metadata elements can go here... -->
+      <dc:title>A Breakthrough Paper</dc:title>
+      <ali:free_to_read>
+	<rdf:Bag>
+	  <rdf:li rdf:parseType="Resource">
+	    <!-- free to read from issued date -->
+	    <ali:start_date>2014-12-24</ali:start_date>
+	  </rdf:li>
+	</rdf:Bag>
+      </ali:free_to_read>
+    </rdf:Description>
+  </rdf:RDF>
