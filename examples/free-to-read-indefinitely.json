@@ -1,4 +1,4 @@
 {
-  "@context": "http://www.niso.org/schemas/ali/1.0/jsonld.json",
+  "@context": "http://www.niso.org/schemas/ali/jsonld.json",
   "free_to_read": true
 }

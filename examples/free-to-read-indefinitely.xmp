@@ -5,14 +5,12 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
   <rdf:Description rdf:about="http://dx.doi.org/10.1234567890">
     <!-- Various metadata elements can go here... -->
-    <dc:title>A Breakthrough Paper</dc:title>
-    <ali:free_to_read>
-      <rdf:Bag>
-        <rdf:li rdf:parseType="Resource">
-          <!-- free to read from issued date -->
-          <ali:start_date>2014-12-24</ali:start_date>
-        </rdf:li>
-      </rdf:Bag>
-    </ali:free_to_read>
+    <dc:title>
+      <rdf:Alt>
+        <rdf:li xml:lang="x-default">A Breakthrough Paper</rdf:li>
+      </rdf:Alt>
+    </dc:title>
+    <ali:free_to_read 
+      rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ali:free_to_read>
   </rdf:Description>
 </rdf:RDF>

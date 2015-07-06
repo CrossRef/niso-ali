@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This schema file exists only so as to test validation of some of the example XML files.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:ali="http://www.niso.org/schemas/ali/">
+  <xsd:import schemaLocation="../ali.xsd" namespace='http://www.niso.org/schemas/ali/'/>
+  <xsd:element name="document">
+    <xsd:complexType mixed="true">
+      <xsd:sequence>
+        <xsd:any minOccurs="0" maxOccurs="unbounded"
+          processContents="skip"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+
