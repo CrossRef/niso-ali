@@ -1,5 +1,5 @@
 {
-  "@context": "http://www.niso.org/schemas/ali/jsonld.json",
+  "@context": "http://www.niso.org/schemas/ali/1.0/jsonld.json",
   "free_to_read": true,
   "license_ref": {
     "uri": "http://creativecommons.org/licenses/3.0/"
