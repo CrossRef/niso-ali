@@ -1,0 +1,9 @@
+{
+  "@context": {
+   	"@vocab": "http://www.niso.org/schemas/ali/",
+ 	  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  	"uri": { "@type": "@id" },
+  	"start_date": { "@type": "xsd:date" },
+ 	  "end_date": { "@type": "xsd:date" }
+  }
+}

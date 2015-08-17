@@ -1,0 +1,8 @@
+<document xmlns:ali="http://www.niso.org/schemas/ali/"> 
+  ... 
+  <ali:free_to_read start_date="2014-01-01"
+                    end_date="2014-12-31"/>
+  <ali:license_ref start_date="2015-02-03"
+    >http://www.examplesite.org/open_license.html</ali:license_ref> 
+  ... 
+</document>

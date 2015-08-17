@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	    targetNamespace="http://www.niso.org/schemas/ali/1.0/">
+            targetNamespace="http://www.niso.org/schemas/ali/">
   <xsd:element name="free_to_read">
     <xsd:complexType>
       <xsd:attribute name="end_date" use="optional" type="xsd:date"/>
-      <xsd:attribute name="start_date" use="required" type="xsd:date"/>
+      <xsd:attribute name="start_date" use="optional" type="xsd:date"/>
     </xsd:complexType>
   </xsd:element>
   <xsd:element name="license_ref">
     <xsd:complexType>
       <xsd:simpleContent>
-	<xsd:extension base="xsd:anyURI">
-	  <xsd:attribute name="start_date" use="optional" type="xsd:date"/>
-	</xsd:extension>
+        <xsd:extension base="xsd:anyURI">
+          <xsd:attribute name="start_date" use="optional" type="xsd:date"/>
+        </xsd:extension>
       </xsd:simpleContent>
     </xsd:complexType>
   </xsd:element>
