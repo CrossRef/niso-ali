@@ -26,14 +26,13 @@
 	  <rdf:li rdf:parseType="Resource">
 	    <!-- applying a license from 1 Nov 2014 onwards -->
 	    <ali:start_date>2014-11-01</ali:start_date>
-	    <ali:uri>http://www.psychoceramics.org/
-	    license_v1.html</ali:uri>
+	    <ali:uri>http://www.psychoceramics.org/license_v1.html</ali:uri>
 	  </rdf:li>
 	  <rdf:li rdf:parseType="Resource">
-	    <!-- making the license more liberal one year later -->
+	    <!-- making the license more liberal one year later, and add applies_to attribute -->
 	    <ali:start_date>2015-11-01</ali:start_date>
-	    <ali:uri>http://www.psychoceramics.org/
-	    open_license.html</ali:uri>
+		<ali:applies_to>http://www.psychoceramics.org/licenses</ali:applies_to>
+	    <ali:uri>http://www.psychoceramics.org/open_license.html</ali:uri>
 	  </rdf:li>
 	</rdf:Bag>
       </ali:license_ref>
