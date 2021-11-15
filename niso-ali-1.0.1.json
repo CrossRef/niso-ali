@@ -6,6 +6,7 @@
 	"license_ref": { "@type": "@id" },
 	"uri": { "@type": "@id" },
 	"start_date": { "@type": "xsd:date" },
-	"end_date": { "@type": "xsd:date" }
+	"end_date": { "@type": "xsd:date" }, 
+	"applies_to": { "@type": "xsd:anyURI"}
     }
 }
