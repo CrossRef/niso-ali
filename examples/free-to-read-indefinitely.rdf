@@ -17,8 +17,9 @@
       <ali:uri rdf:resource="http://www.psychoceramics.org/license_v1.html"/>
     </ali:license_ref>
     <ali:license_ref rdf:parseType="Resource">
-      <!-- making the license more liberal one year later -->
+      <!-- making the license more liberal one year later, and add applies_to attribute -->
       <ali:start_date rdf:datatype="xsd:date">2015-11-01</ali:start_date>
+	  <ali:applies_to rdf:datatype="xsd:anyURI">http://www.psychoceramics.org/licenses</ali:applies_to>
       <ali:uri rdf:resource="http://www.psychoceramics.org/open_license.html"/>
     </ali:license_ref>
   </rdf:Description>
