@@ -12,9 +12,13 @@
       <xsd:simpleContent>
 	<xsd:extension base="xsd:anyURI">
 	  <xsd:attribute name="start_date" use="optional" type="xsd:date"/>
+	  <xsd:attribute name="applies_to" use="optional">            
+		<xsd:simpleType>
+		  <xsd:union memberTypes="xsd:anyURI xsd:NMTOKEN"/>
+		</xsd:simpleType>
+	  </xsd:attribute>
 	</xsd:extension>
       </xsd:simpleContent>
     </xsd:complexType>
   </xsd:element>
 </xsd:schema>
-
